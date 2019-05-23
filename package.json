@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "art": "^0.10.1",
-    "openssl-wrapper": "0.1.1",
+  
+    " babel": "5.8.38"
   }
 }
