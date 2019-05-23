@@ -4,6 +4,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lodash": "3.10.1"
+    "lodash": "3.9.1"
   }
 }
