@@ -5,8 +5,8 @@
   ],
   "devDependencies": {
     "art": "^0.10.1",
-    "openssl-wrapper": "0.1.1"
-    "babel-cli": "^6.6.5",
+    "openssl-wrapper": "0.1.1",
+    "babel-cli": "5.0.0",
     "babel-code-frame": "^6.26.0",
     "babel-core": "^4.0.0",
     "babel-eslint": "^10.0.0",
