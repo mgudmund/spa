@@ -4,7 +4,6 @@
     "packages/*"
   ],
   "devDependencies": {
-  
-    " babel": "5.8.38"
+     "babel": "5.8.38"
   }
 }
