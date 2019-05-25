@@ -9,7 +9,7 @@ pipeline:
       # and the latest tag will stay as a cache.
       - env
 
-pipeline2:
+pipeline:
 
   test:
     image: docker
