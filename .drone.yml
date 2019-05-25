@@ -1,5 +1,5 @@
 kind: pipeline
-name: default
+name: default-1
 
 steps:
 - name: frontend
@@ -12,7 +12,7 @@ steps:
   image: node
   commands:
   - env
- 
+--- 
 kind: pipeline
 name: default-2
 
