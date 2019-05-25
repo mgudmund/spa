@@ -1,21 +1,15 @@
-pipeline:
+kind: pipeline
+name: default
 
-  build-image:
-    image: docker
-    commands:
-      # Build development target, which includes xdebug.
-      # Tag with both api-build:<build_number> and api-build:latest.
-      # The <build_number> tag will be removed after the build
-      # and the latest tag will stay as a cache.
-      - env
+steps:
+- name: frontend
+  image: node
+  commands:
+  - npm install
+  
 
-pipeline:
-
-  test:
-    image: docker
-    commands:
-      # Build development target, which includes xdebug.
-      # Tag with both api-build:<build_number> and api-build:latest.
-      # The <build_number> tag will be removed after the build
-      # and the latest tag will stay as a cache.
-      - env
+- name: test
+  image: node
+  commands:
+  - env
+ 
