@@ -13,3 +13,18 @@ steps:
   commands:
   - env
  
+kind: pipeline
+name: default-2
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - npm install
+  
+
+- name: test
+  image: node
+  commands:
+  - env
+ 
