@@ -9,9 +9,9 @@ pipeline:
       # and the latest tag will stay as a cache.
       - env
 
-pipeline:
+pipeline2:
 
-  build-image:
+  test:
     image: docker
     commands:
       # Build development target, which includes xdebug.
