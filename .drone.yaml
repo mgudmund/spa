@@ -1,0 +1,11 @@
+pipeline:
+
+  build-image:
+    image: docker
+    commands:
+      # Build development target, which includes xdebug.
+      # Tag with both api-build:<build_number> and api-build:latest.
+      # The <build_number> tag will be removed after the build
+      # and the latest tag will stay as a cache.
+      - docker version
+      - env
